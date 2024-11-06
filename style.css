@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    /* Culori de bază */
+    --white: hsl(0, 0%, 100%);
+  
+    /* Culori Stone */
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+  
+    /* Culoare Brown */
+    --brown-800: hsl(14, 45%, 36%);
+  
+    /* Culori Rose */
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+  }
+
+  body {
+    
+    font-size: 16px;
+    color: #333;
+    background-color: var(--stone-100);
+    line-height: 1.6;
+    padding-top: 5%;
+  }
+
+  #mainSection{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 3rem 3rem;
+    border-radius: 12px;
+    letter-spacing: 0.8px;
+    line-height: 1.6;
+        
+  }
+
+  
+  #recipePic {
+    text-align: center;
+    }
+  #omletaPic {
+    border-radius: 2%;
+  }
+
+  .mainHeaders {
+    font-family: "Young Serif", serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: var(--rose-800);
+  }
+  /* .mainHeaders, #recipeDesc {
+    padding-top: 0.5rem;
+    
+  } */
+  .mainHeaders {
+    margin-top: 05.rem;
+  }
+
+ 
+  h1{
+    font-size: 56px; /* sau ajustează între 48px și 64px */
+    font-weight: 700;
+    line-height: 1.2; /* pentru a păstra o bună lizibilitate */
+    margin-bottom: 2rem;
+  }
+    h3 {
+    font-family: "Outfit", sans-serif;
+    
+  }
+
+  #prepTime {
+    max-width: 100%;
+    background-color: var(--rose-50);
+    line-height: 2rem;
+    border-radius: 12px;
+    margin: 2rem 0 2rem 0;
+  }
+
+ 
+  #prepTime > ul {
+    padding: 0.5rem;
+  }
+
+  .prepContainer {
+    padding: 2rem 2rem;
+  }
+
+  .prepContainer > h4{
+    font-size: 23px;
+    color: var(--brown-800);
+  }
+
+  #prepList > li {
+    padding: 1rem;
+    font-size: 18px;
+  }
+
+  .boldText{
+    color: var(--stone-600);
+    font-weight: bold;
+  }
+  .liste {
+    padding: 2rem;
+    font-size: 18px;
+  }
+
+  .normalText {
+    font-family: "Outfit", sans-serif;
+    color: var(--stone-900);
+  }
+
+  .nutrition-list ul.li {
+    list-style-type: none;
+  }
+ 
+    .nutrition-list {
+    margin-top: 2rem;
+    }
+
+  .nutrition-item {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem; /* Spațiere între elemente */
+
+  }  
+  .nutrition-item:last-child {
+    border-bottom: none; /* Elimină linia de jos pentru ultimul element */
+    
+  }
+
+  .label {
+    color: #333; /* Culoare pentru etichete */
+    font-weight: normal;
+    
+    
+  }
+  
+  .value {
+    color: #8b4513; /* Culoare maro pentru valori */
+    font-weight: bold;
+    margin-left: 40%;
+    width: 40%;
+    
+  }
+
+  span.value{
+    
+    text-align: start;
+  }
+  
+  .horizontal-line {
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 2rem 0;
+  }
+
+  
